@@ -1,0 +1,39 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Oi", "Como vai", "Tem alguém ai?", "Ola", "Bom dia", "Eai", "Oi tudo bem", "Opa"],
+            "responses": ["Ola!", "Otimo ver voce novamente!", "Oi, como posso ajudar?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["tchau", "ate mais", "adeus", "estou saindo", "tenha um bom dia", "ate", "ate logo"],
+            "responses": ["Tchau!", "Falamos mais tarde", "Ate logo!"]
+        },
+        {
+            "tag": "programming",
+            "patterns": ["O que e programaçao?", "O que é codificaçao?", "Fale sobre programaçao", "Fale sobre codificação", "O que e desenvolvimento de software?"],
+            "responses": ["Programaçao ou desenvolvimento de software significa escrever codigo de computador para automatizar tarefas."]
+        },
+        {
+            "tag": "resource",
+            "patterns": ["Onde posso aprender a programar?", "Melhor maneira de aprender a programar", "Como posso aprender programaçao", "Bons recursos para programaçao"],
+            "responses": ["Existem muitos recursos excelentes como canais do YouTube, cursos onlines e varios websites como o W3schools!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["qual seu nome?", "como voce se chama?", "quem e voce?", "como posso te chamar?"],
+            "responses": ["Eu sou IABot, seu assistente de IA!", "Me chamo IABot, em que posso ajudar?", "IABot ao seu dispor!"]
+        },
+        {
+            "tag": "samuel",
+            "patterns": ["quem e Samuel Augusto?", "O que ele faz?", "Mostre o portfolio de Samuel"],
+            "responses": ["Samuel Augusto e um excelente programador que busca conhecimento e aprender", "O portfolio dele é: https://isamuelaugustoi.github.io/Portfolio-SA/"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["voce pode me ajudar?", "preciso de ajuda", "me ajude", "o que você faz?"],
+            "responses": ["Claro! Posso ajudar com informaçoes sobre programaçao, recomendar recursos de aprendizado, falar sobre o meu criador e muito mais."]
+        }
+    ]
+}
